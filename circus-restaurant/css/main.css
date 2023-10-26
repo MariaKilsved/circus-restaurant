@@ -1,0 +1,42 @@
+
+header_background:
+linear-gradient(0deg, rgba(40, 36, 199, 0.30) 0%, rgba(40, 36, 199, 0.30) 100%), url(<path-to-image>), lightgray 0px -80.5px / 100% 393.846% no-repeat;
+
+layout {
+width: 1920px;
+height: 325px;
+flex-shrink: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/*header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+.header_image {
+
+    width: 100%;
+    height: auto;
+}
+
+.header_text {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 52.083% */
+    z-index: 2;
+    position: absolute;
+    top: 50px; left: 400px;
+
+}
