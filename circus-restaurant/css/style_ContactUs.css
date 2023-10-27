@@ -1,12 +1,17 @@
 .section{
     background-color: #C7D2EC;
     color: #BE1922;
-    padding-left: 34px;
-   
+    padding-left: 74px;
+    padding-right: 74px;
+    padding-top: 34px;
+    padding-bottom: 20px;
+    border-radius: 30px;
 }
 
 .section-space{
-    padding-top: 120px;
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .section-content{
@@ -17,3 +22,10 @@
     
     padding-right: 34px;
 }
+.align-right {
+    text-align: right;
+    border: 0;
+  }
+  .round-btn{
+    border-radius: 30px;
+  }

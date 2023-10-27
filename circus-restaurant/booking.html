@@ -17,7 +17,7 @@
     <body>
         <header> 
             <img src="images/Header.png"  class="header_image" />
-            <h1 class="header_text">Trial text </h1>
+            <h1 class="header_text">Booking</h1>
         </header>
 
         <nav>
@@ -56,50 +56,102 @@
                 </li>
               </ul>
         </nav>
-        
-        <form style="background-color: #C8D2EC;">
-            <label for="eventname">Choose an event</label>
-            <select id="eventname" name="eventname">
-                <option value="maddie">Magnificent Maddie Saturday 28 October</option>
-                <option value="bamse">Bamse Saturday 4 November</option>
-                <option value="zac">Zac the Magitian Saturday 11 November</option>
-            </select>
-            <br>
-            <label for="guestname">Name:</label>
-            <input type="text" id="guestname" name="guestname">
-            <br>
-            <label for="guestemail">Email:</label>
-            <input type="text" id="guestemail" name="guestemail">
-            <br>
-            <label for="guesphone">Telephone number:</label>
-            <input type="text" id="guestphone" name="guestphone">
-            <br>
-            <label for="nguests">Number of guests:</label>
-            <label for="nadults">adults</label>
-            <select id="nadults" name="nadults">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select>
-            <label for="nchildren">children</label>
-            <select id="nchildren" name="nchildren">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select>
-            <br>
-            <label for="special">Special requests (optional):</label>
-            <textarea id="special" name="special"></textarea>
-            <br>
-            <label for="reminder">Send reminder by:</label>
-            <input type="checkbox" id="bymail" name="bymail" value="emailreminder">
-            <label for="bymail">email</label>
-            <input type="checkbox" id="bytext" name="bytext" value="textreminder">
-            <label for="bytext">text message</label>
-            <br>
-            <input type="submit" value="Confirm">
-        </form>
-
+        <br>
+        <div class="container-fluid">
+            <div class="container">
+                <form style="background-color: #C8D2EC; border-radius: 30px;">
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-6" style="text-align:right">
+                            <label for="eventname">Choose an event</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <select id="eventname" name="eventname">
+                                <option value="maddie">Magnificent Maddie Saturday 28 October</option>
+                                <option value="bamse">Bamse Saturday 4 November</option>
+                                <option value="zac">Zac the Magitian Saturday 11 November</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-6" style="text-align:right">
+                            <label for="guestname">Name:</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" id="guestname" name="guestname">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-6" style="text-align:right">
+                            <label for="guestemail">Email:</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" id="guestemail" name="guestemail">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-6" style="text-align:right">
+                            <label for="guesphone">Telephone number:</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="text" id="guestphone" name="guestphone">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-6" style="text-align:right">
+                            <label for="nguests">Number of guests:</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="nadults">adults</label>
+                            <select id="nadults" name="nadults">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <label for="nchildren">children</label>
+                            <select id="nchildren" name="nchildren">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-6" style="text-align:right">
+                            <label for="special">Special requests (optional):</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <textarea id="special" name="special"></textarea>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-6" style="text-align:right">
+                            <label for="reminder">Send reminder by:</label>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="checkbox" id="bymail" name="bymail" value="emailreminder">
+                            <label for="bymail">email</label>
+                            <input type="checkbox" id="bytext" name="bytext" value="textreminder">
+                            <label for="bytext">text message</label>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-12" style="text-align:center">
+                            <input type="submit" value="Confirm">
+                        </div>
+                    </div>
+                    <br>
+                </form>
+            </div>
+        </div>
+        <br>
 
         <footer>
             <div class="footer-main">
