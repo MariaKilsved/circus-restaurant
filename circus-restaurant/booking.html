@@ -59,7 +59,7 @@
         <br>
         <div class="container-fluid">
             <div class="container">
-                <form style="background-color: #C8D2EC;">
+                <form style="background-color: #C8D2EC; border-radius: 30px;">
                     <br>
                     <div class="row">
                         <div class="col-sm-6" style="text-align:right">
@@ -101,19 +101,17 @@
                         </div>
                     </div>
                     <br>
-                    <div class="row" style="text-align:right">
-                        <div class="col-sm-6">
+                    <div class="row">
+                        <div class="col-sm-6" style="text-align:right">
                             <label for="nguests">Number of guests:</label>
                         </div>
-                        <div class="col-sm-3" style="text-align:center">
+                        <div class="col-sm-6">
                             <label for="nadults">adults</label>
                             <select id="nadults" name="nadults">
                                 <option value="1">1</option>
                                 <option value="2">2</option>
                                 <option value="3">3</option>
                             </select>
-                        </div>
-                        <div class="col-sm-3" style="text-align:center">
                             <label for="nchildren">children</label>
                             <select id="nchildren" name="nchildren">
                                 <option value="1">1</option>
@@ -136,11 +134,9 @@
                         <div class="col-sm-6" style="text-align:right">
                             <label for="reminder">Send reminder by:</label>
                         </div>
-                        <div class="col-sm-3" style="text-align:center">
+                        <div class="col-sm-6">
                             <input type="checkbox" id="bymail" name="bymail" value="emailreminder">
                             <label for="bymail">email</label>
-                        </div>
-                        <div class="col-sm-3" style="text-align:center">
                             <input type="checkbox" id="bytext" name="bytext" value="textreminder">
                             <label for="bytext">text message</label>
                         </div>
