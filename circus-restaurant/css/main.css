@@ -1,12 +1,15 @@
 
-header_background:
+/*header_background:
 linear-gradient(0deg, rgba(40, 36, 199, 0.30) 0%, rgba(40, 36, 199, 0.30) 100%), url(<path-to-image>), lightgray 0px -80.5px / 100% 393.846% no-repeat;
+*/
 
+/*
 layout {
 width: 1920px;
 height: 325px;
 flex-shrink: 0;
 }
+*/
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -91,9 +94,6 @@ footer {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 
 .copyright-notice {
