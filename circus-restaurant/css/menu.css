@@ -1,0 +1,46 @@
+.food-image-lg {
+    width: 873px;
+    height: auto;
+}
+
+.food-image-sm {
+    width: 429px;
+    height: 270px;
+}
+
+.food-name {
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    margin-top: 7px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.food-price {
+    color: #BE1922;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    margin: 0;
+}
+
+.food-splash-start {
+
+}
+
+.food-splash-end {
+
+}
+
+.blue-arrow {
+    width: 94px;
+    height: 79px;
+}
