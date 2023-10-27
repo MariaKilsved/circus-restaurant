@@ -6,8 +6,6 @@
     padding-top: 34px;
     padding-bottom: 20px;
     border-radius: 30px;
-    
-   
 }
 
 .section-space{
@@ -24,3 +22,10 @@
     
     padding-right: 34px;
 }
+.align-right {
+    text-align: right;
+    border: 0;
+  }
+  .round-btn{
+    border-radius: 30px;
+  }
