@@ -1,12 +1,18 @@
 .section{
     background-color: #C7D2EC;
     color: #BE1922;
-    padding-left: 34px;
+    padding-left: 74px;
+    padding-right: 74px;
+    padding-top: 34px;
+    padding-bottom: ;
+    border-radius: 30px;
    
 }
 
 .section-space{
-    padding-top: 120px;
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .section-content{
